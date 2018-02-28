@@ -1,0 +1,8 @@
+{
+  "name": "KevinApp",
+  "app_id": "b89fc76a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

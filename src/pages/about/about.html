@@ -1,0 +1,64 @@
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    
+    <title>Ionic App</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--<link href="http://code.ionicframework.com/1.0.0-beta.1/css/ionic.css"
+    rel="stylesheet">
+
+<script  src="http://code.ionicframework.com/1.0.0-beta.14/js/ionic.bundle.js"></script>-->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+  <ion-header >
+    <div class = "">
+        <h1 class="title">Products</h1>
+    </div>
+  </ion-header>
+
+
+  <ion-content padding>
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-col width =50><button style="width: 100%;" ion-button round color = "primary"><ion-icon name="home"></ion-icon>NEW</button></ion-col>
+        <ion-col width =50><button style="width: 100%;" ion-button round color = "primary"> <ion-icon name="ios-more"></ion-icon>UPCOMING RELEASE</button></ion-col>
+        <ion-col width =50><button style="width: 100%;" ion-button round color = "primary">ABOUT</button></ion-col>
+        <ion-col width =50><button style="width: 100%;" ion-button round color = "primary">ORDER</button></ion-col>
+       </ion-row>
+     </ion-grid>
+    </div>
+  
+  <ion-slides pager>
+
+  <ion-slide style="background-color: green">
+    <img src="assets/imgs/fog.JPG" width="1600px" height="650px">
+  </ion-slide>
+
+  <ion-slide style="background-color: blue">
+    <img src="assets/imgs/l.JPG" width="1600px" height="650px">
+  </ion-slide>
+
+  <ion-slide style="background-color: red">
+    <img src="assets/imgs/j.JPG" width="1600px" height="650px">
+  </ion-slide>
+
+  </ion-slides>
+
+  </ion-content>
+ <!--
+  <ion-footer>
+    <ion-toolbar color = "danger" style ="text-align: center;">All right reserve 2020</ion-toolbar>
+  </ion-footer>
+ -->
+</body>
+
+</html>
